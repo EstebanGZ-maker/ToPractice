@@ -53,4 +53,26 @@ Luego, realiza la resta de estos dos valores y almacena el resultado en una terc
 Utiliza console.log para mostrar el mensaje "La diferencia entre [valor1] y [valor2] es igual a [resultado]." en la consola.
 */
 
+let valor1 = 323;  
+
+let valor2 = 76; 
+
+let result = valor1 - valor2;
+ 
+console.log(` La diferencia entre ${valor1} y ${valor2} es: ${result} `);  
+
+
+/* Pregunta al usuario qué día de la semana es. Si la respuesta es "Sábado" o "Domingo", muestra 
+"¡Buen fin de semana!". De lo contrario, muestra "¡Buena semana!". */
+
+const dia = "Lunes"
+ 
+ 
+if (dia == "Sábado" || "Domingo") {
+    console.log("Ten un buen fin de semana"); 
+} else {
+    console.log("Es semana"); 
+    
+} 
+   
 
